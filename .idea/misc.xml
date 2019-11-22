@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GoImports">
+    <option name="importSorting" value="GOFMT" />
+  </component>
+  <component name="GoLibraries">
+    <option name="urls">
+      <list>
+        <option value="file://E:/server/xrzp-dev/1.2.0/gopath" />
+        <option value="file://E:/server/xrzp-dev/1.2.0/server/src/merge" />
+      </list>
+    </option>
+  </component>
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+</project>
