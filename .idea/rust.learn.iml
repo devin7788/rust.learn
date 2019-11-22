@@ -15,7 +15,7 @@
       <sourceFolder url="file://$MODULE_DIR$/primitives\tests" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/primitives\benches" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/hello_world/target" />
-      <excludeFolder url="file://$MODULE_DIR$/primitives\target" />
+      <excludeFolder url="file://$MODULE_DIR$/primitives/target" />
       <excludeFolder url="file://$MODULE_DIR$/rust_learn/target" />
     </content>
     <orderEntry type="inheritedJdk" />
