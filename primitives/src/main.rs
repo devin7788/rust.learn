@@ -15,3 +15,5 @@ fn main() {
     //    mutable = true;
     let mutable = true;
 }
+
+// cargo run
