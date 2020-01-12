@@ -26,3 +26,4 @@ mod tests {
         assert_eq!(bad_add(1, 2), -1);
     }
 }
+// just run: cargo test
