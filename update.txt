@@ -5,9 +5,9 @@ replace-with = 'ustc'
 [source.ustc]
 registry = "git://mirrors.ustc.edu.cn/crates.io-index"
 [http]
-proxy = "127.0.0.1:62505"
+proxy = "127.0.0.1:64582"
 [https]
-proxy = "127.0.0.1:62505"
+proxy = "127.0.0.1:64582"
 
 [target.x86_64-pc-windows-gnu]
 linker = "C:\\msys64\\mingw64\\bin\\gcc.exe"
@@ -16,3 +16,16 @@ ar = "C:\\msys64\\mingw64\\bin\\ar.exe"
 2.安装racer
 rustup toolchain add nightly
 cargo +nightly install racer
+
+3.msys安装
+mirrorlist.mingw64文件添加一行，Server = http://mirrors.ustc.edu.cn/msys2/mingw/x86_64/
+pacman -S gcc
+pacman -S mingw-w64-x86_64-toolchain
+pacman -S mingw-w64-i686-toolchain
+pacman -S mingw-w64-x86_64-SDL2
+pacman -S mingw-w64-i686-SDL2
+pacman -S base-devel
+pacman -S vim
+pacman -S yasm
+pacman -S nasm
+pacman -S make

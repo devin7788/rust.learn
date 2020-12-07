@@ -1,0 +1,9 @@
+[source.crates-io] 
+replace-with = "rustcc" 
+
+[source.rustcc] 
+registry = "https://code.aliyun.com/rustcc/crates.io-index.git" 
+
+[target.x86_64-pc-windows-gnu] 
+linker = "C:\TDM-GCC-64\bin\gcc.exe" 
+ar = "C:\TDM-GCC-64\bin\ar.exe"
