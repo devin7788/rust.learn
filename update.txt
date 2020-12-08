@@ -18,6 +18,19 @@ rustup toolchain add nightly
 cargo +nightly install racer
 
 3.msys安装
+编辑 /etc/pacman.d/mirrorlist.mingw32 ，在文件开头添加：
+Server = https://mirrors.tuna.tsinghua.edu.cn/msys2/mingw/i686
+编辑 /etc/pacman.d/mirrorlist.mingw64 ，在文件开头添加：
+Server = https://mirrors.tuna.tsinghua.edu.cn/msys2/mingw/x86_64
+编辑 /etc/pacman.d/mirrorlist.msys ，在文件开头添加：
+Server = https://mirrors.tuna.tsinghua.edu.cn/msys2/msys/$arch
+
+pacman -Sy
+pacman -Ss gcc
+pacman -S msys/gcc
+pacman -Ss make
+pacman -S msys/make
+
 mirrorlist.mingw64文件添加一行，Server = http://mirrors.ustc.edu.cn/msys2/mingw/x86_64/
 pacman -S gcc
 pacman -S mingw-w64-x86_64-toolchain
@@ -29,3 +42,14 @@ pacman -S vim
 pacman -S yasm
 pacman -S nasm
 pacman -S make
+
+
+pacman-key --init
+pacman -Syu
+pacman -S mingw-w64-x86_64-cmake mingw-w64-x86_64-extra-cmake-modules
+pacman -S mingw-w64-x86_64-make
+pacman -S mingw-w64-x86_64-gdb
+pacman -S mingw-w64-x86_64-toolchain
+
+设置路径, 修复找不到gcc.exe的问题
+C:\msys64\mingw64\bin
