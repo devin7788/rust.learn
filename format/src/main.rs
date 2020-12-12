@@ -42,8 +42,8 @@ fn main() {
 // https://github.com/mitsuhiko/redis-rs
 fn fetch_an_integer() -> String {
     // connect to redis
-    let redisAddr = "redis://:admin123@127.0.0.1:6379/1";
-    let client = redis::Client::open(redisAddr).unwrap();
+    let redis_address = "redis://:admin123@127.0.0.1:6379/1";
+    let client = redis::Client::open(redis_address).unwrap();
     let mut con = client.get_connection().unwrap();
     // throw away the result, just make sure it does not fail
     let _: () = con.set("my_key", 42).unwrap();
