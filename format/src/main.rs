@@ -36,19 +36,19 @@ fn main() {
     // 改正 ^ 注释掉此行。
     // connect to redis
 
-    println!("{:?}", fetch_an_integer())
+    println!("my_key result:{:?}", fetch_an_integer());
 }
 
-
-fn fetch_an_integer() -> redis::RedisResult<isize> {
+// https://github.com/mitsuhiko/redis-rs
+fn fetch_an_integer() -> String {
     // connect to redis
-    let client = redis::Client::open("redis://127.0.0.1/")?;
-    let mut con = client.get_connection()?;
-
+    let redisAddr = "redis://:admin123@127.0.0.1:6379/1";
+    let client = redis::Client::open(redisAddr).unwrap();
+    let mut con = client.get_connection().unwrap();
     // throw away the result, just make sure it does not fail
-    let _ : () = con.set("my_key", 42)?;
+    let _: () = con.set("my_key", 42).unwrap();
     // read back the key and return it.  Because the return value
     // from the function is a result for integer this will automatically
     // convert into one.
-    con.get("my_key")
+    con.get("my_key").unwrap()
 }
