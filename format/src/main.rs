@@ -1,3 +1,5 @@
+mod models;
+
 use redis::Commands;
 
 // 这个结构体不能使用 `fmt::Display` 或 `fmt::Debug` 来进行打印。
@@ -6,6 +8,15 @@ struct UnPrintable(i32);
 // `derive` 属性会自动创建所需的实现，使这个 `struct` 能使用 `fmt::Debug` 打印。
 #[derive(Debug)]
 struct DebugPrintable(i32);
+
+#[macro_use]
+extern crate diesel;
+extern crate dotenv;
+
+use diesel::prelude::*;
+use diesel::mysql::MysqlConnection;
+use dotenv::dotenv;
+use std::env;
 
 fn main() {
     println!("Hello, world!");
@@ -51,4 +62,17 @@ fn fetch_an_integer() -> String {
     // from the function is a result for integer this will automatically
     // convert into one.
     con.get("my_key").unwrap()
+}
+
+// 建立连接
+// https://www.rectcircle.cn/posts/rust-diesel
+pub fn establish_connection() -> MysqlConnection {
+    dotenv().ok();
+
+    // 从数据库中拿到环境变量
+    let database_url = env::var("mysql://root:admin123@localhost:3306/login")
+        .expect("DATABASE_URL must be set");
+    // 建连MySQL连接
+    MysqlConnection::establish(&database_url)
+        .expect(&format!("Error connecting to {}", database_url))
 }

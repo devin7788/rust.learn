@@ -9,3 +9,5 @@ edition = "2018"
 [dependencies]
 redis = "0.17.0"
 cc = { version = "1.0", features = ["parallel"] }
+diesel = { version = "1.4.4", features = ["mysql"] }
+dotenv = "0.15.0"
