@@ -15,10 +15,18 @@
       <sourceFolder url="file://$MODULE_DIR$/primitives/tests" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/primitives/benches" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/format/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/actix_http/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/project/guessing_game/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/project/hello_world/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/project/variables/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/hello_world/target" />
       <excludeFolder url="file://$MODULE_DIR$/primitives/target" />
       <excludeFolder url="file://$MODULE_DIR$/rust_learn/target" />
       <excludeFolder url="file://$MODULE_DIR$/format/target" />
+      <excludeFolder url="file://$MODULE_DIR$/actix_http/target" />
+      <excludeFolder url="file://$MODULE_DIR$/project/hello_world/target" />
+      <excludeFolder url="file://$MODULE_DIR$/project/guessing_game/target" />
+      <excludeFolder url="file://$MODULE_DIR$/project/variables/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

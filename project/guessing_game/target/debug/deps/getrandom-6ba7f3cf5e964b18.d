@@ -1,0 +1,9 @@
+D:\rust\rust.learn\project\guessing_game\target\debug\deps\getrandom-6ba7f3cf5e964b18.rmeta: C:\Users\Administrator\.cargo\registry\src\mirrors.ustc.edu.cn-61ef6e0cd06fb9b8\getrandom-0.2.3\src\lib.rs C:\Users\Administrator\.cargo\registry\src\mirrors.ustc.edu.cn-61ef6e0cd06fb9b8\getrandom-0.2.3\src\error.rs C:\Users\Administrator\.cargo\registry\src\mirrors.ustc.edu.cn-61ef6e0cd06fb9b8\getrandom-0.2.3\src\util.rs C:\Users\Administrator\.cargo\registry\src\mirrors.ustc.edu.cn-61ef6e0cd06fb9b8\getrandom-0.2.3\src\error_impls.rs C:\Users\Administrator\.cargo\registry\src\mirrors.ustc.edu.cn-61ef6e0cd06fb9b8\getrandom-0.2.3\src\windows.rs
+
+D:\rust\rust.learn\project\guessing_game\target\debug\deps\getrandom-6ba7f3cf5e964b18.d: C:\Users\Administrator\.cargo\registry\src\mirrors.ustc.edu.cn-61ef6e0cd06fb9b8\getrandom-0.2.3\src\lib.rs C:\Users\Administrator\.cargo\registry\src\mirrors.ustc.edu.cn-61ef6e0cd06fb9b8\getrandom-0.2.3\src\error.rs C:\Users\Administrator\.cargo\registry\src\mirrors.ustc.edu.cn-61ef6e0cd06fb9b8\getrandom-0.2.3\src\util.rs C:\Users\Administrator\.cargo\registry\src\mirrors.ustc.edu.cn-61ef6e0cd06fb9b8\getrandom-0.2.3\src\error_impls.rs C:\Users\Administrator\.cargo\registry\src\mirrors.ustc.edu.cn-61ef6e0cd06fb9b8\getrandom-0.2.3\src\windows.rs
+
+C:\Users\Administrator\.cargo\registry\src\mirrors.ustc.edu.cn-61ef6e0cd06fb9b8\getrandom-0.2.3\src\lib.rs:
+C:\Users\Administrator\.cargo\registry\src\mirrors.ustc.edu.cn-61ef6e0cd06fb9b8\getrandom-0.2.3\src\error.rs:
+C:\Users\Administrator\.cargo\registry\src\mirrors.ustc.edu.cn-61ef6e0cd06fb9b8\getrandom-0.2.3\src\util.rs:
+C:\Users\Administrator\.cargo\registry\src\mirrors.ustc.edu.cn-61ef6e0cd06fb9b8\getrandom-0.2.3\src\error_impls.rs:
+C:\Users\Administrator\.cargo\registry\src\mirrors.ustc.edu.cn-61ef6e0cd06fb9b8\getrandom-0.2.3\src\windows.rs:
