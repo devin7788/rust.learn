@@ -1,0 +1,19 @@
+{
+    "rustc": 12660762775785875427,
+    "features": "[]",
+    "target": 2834469597078088259,
+    "profile": 18108590124580271077,
+    "path": 1036222786711178230,
+    "deps": [],
+    "local": [
+        {
+            "CheckDepInfo": {
+                "dep_info": "debug\\.fingerprint\\dangling_pointer-ef5a02180aceb050\\dep-bin-dangling_pointer"
+            }
+        }
+    ],
+    "rustflags": [],
+    "metadata": 7797948686568424061,
+    "config": 0,
+    "compile_kind": 0
+}
